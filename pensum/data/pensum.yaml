@@ -1,0 +1,459 @@
+# Pensum de Cultura y Virtud — Versión machine-readable
+# Este archivo permite absorber el pensum en cualquier otro sistema.
+
+version: "1.0.0"
+updated: "2026-09-23"
+
+principle: |
+  Una persona culta puede explicar; una persona virtuosa puede actuar.
+  La persona completa puede hacer ambas cosas.
+
+maturity_scale:
+  0: "No sé."
+  1: "Tengo una intuición, pero no podría explicarla."
+  2: "Puedo explicarla razonablemente."
+  3: "Puedo defenderla frente a objeciones."
+  4: "La he incorporado a mi manera de vivir."
+
+sections:
+  - id: 01
+    slug: aprender-a-pensar
+    title: "Aprender a pensar"
+    virtue: "Honestidad intelectual"
+    questions:
+      - id: q01
+        text: "¿Qué diferencia hay entre una opinión, una creencia, una hipótesis y un conocimiento?"
+      - id: q02
+        text: "¿Qué es un argumento?"
+      - id: q03
+        text: "¿Qué diferencia hay entre validez y verdad?"
+      - id: q04
+        text: "¿Qué es una falacia?"
+      - id: q05
+        text: "¿Puedes detectar las principales falacias en una discusión?"
+      - id: q06
+        text: "¿Qué es una definición y por qué importa definir bien las palabras?"
+      - id: q07
+        text: "¿Qué diferencia hay entre causa, correlación y coincidencia?"
+      - id: q08
+        text: "¿Qué significa que una afirmación sea falsable?"
+      - id: q09
+        text: "¿Cómo sabes que sabes algo?"
+      - id: q10
+        text: "¿Qué evidencias te harían cambiar de opinión sobre algo que consideras verdadero?"
+      - id: q11
+        text: "¿Puedes explicar el principio de no contradicción?"
+      - id: q12
+        text: "¿Puedes reconstruir el argumento más fuerte de alguien con quien estás en desacuerdo?"
+
+  - id: 02
+    slug: lenguaje-y-expresion
+    title: "El lenguaje y la expresión"
+    virtue: "Precisión y dominio de uno mismo"
+    questions:
+      - id: q01
+        text: "¿Puedes escribir una página defendiendo una tesis con claridad?"
+      - id: q02
+        text: "¿Puedes resumir el argumento de un libro sin deformarlo?"
+      - id: q03
+        text: "¿Puedes distinguir una metáfora de una afirmación literal?"
+      - id: q04
+        text: "¿Conoces las reglas fundamentales de la gramática de tu lengua?"
+      - id: q05
+        text: "¿Puedes hablar durante cinco minutos sobre un asunto sin divagar?"
+      - id: q06
+        text: "¿Puedes explicar una idea compleja para un niño de diez años?"
+      - id: q07
+        text: "¿Puedes distinguir entre hablar persuasivamente y hablar verdaderamente?"
+      - id: q08
+        text: "¿Lees poesía prestando atención al ritmo, imagen, forma y significado?"
+      - id: q09
+        text: "¿Conoces las grandes obras de la literatura de tu propia lengua?"
+      - id: q10
+        text: "¿Puedes recitar de memoria algunos poemas o fragmentos que consideres importantes?"
+
+  - id: 03
+    slug: filosofia
+    title: "Filosofía: aprender qué merece la pena vivir"
+    virtue: "Sabiduría"
+    questions:
+      - id: q01
+        text: "¿Qué es la verdad?"
+      - id: q02
+        text: "¿Qué es el bien?"
+      - id: q03
+        text: "¿Qué es la belleza?"
+      - id: q04
+        text: "¿Qué hace que una vida sea buena?"
+      - id: q05
+        text: "¿Qué diferencia hay entre placer y felicidad?"
+      - id: q06
+        text: "¿Qué es la virtud?"
+      - id: q07
+        text: "¿Puede existir una buena vida sin virtud?"
+      - id: q08
+        text: "¿Qué es la justicia?"
+      - id: q09
+        text: "¿Qué le debemos a otras personas?"
+      - id: q10
+        text: "¿Qué hace que una acción sea moralmente correcta?"
+      - id: q11
+        text: "¿Puede una buena intención justificar una mala acción?"
+      - id: q12
+        text: "¿Tenemos libertad?"
+      - id: q13
+        text: "¿Qué significa ser responsable de nuestros actos?"
+      - id: q14
+        text: "¿Qué es la muerte y cómo debería afectar nuestra manera de vivir?"
+      - id: q15
+        text: "¿Qué cosas están bajo nuestro control y cuáles no?"
+      - id: q16
+        text: "¿Qué significa vivir de acuerdo con la razón?"
+      - id: q17
+        text: "¿Qué significa vivir auténticamente?"
+      - id: q18
+        text: "Si tuvieras que defender una concepción de la vida buena frente a alguien que la rechaza, ¿podrías hacerlo?"
+
+  - id: 04
+    slug: historia
+    title: "Historia: comprender cómo llegamos hasta aquí"
+    virtue: "Humildad histórica"
+    questions:
+      - id: q01
+        text: "¿Puedes explicar las principales etapas de la historia de la humanidad?"
+      - id: q02
+        text: "¿Qué ocurrió en las primeras civilizaciones agrícolas?"
+      - id: q03
+        text: "¿Qué aportaron Grecia y Roma?"
+      - id: q04
+        text: "¿Qué fue el cristianismo primitivo y cómo transformó Europa?"
+      - id: q05
+        text: "¿Qué fue el mundo islámico medieval y qué aportó a la civilización?"
+      - id: q06
+        text: "¿Qué fue la Edad Media realmente, más allá de los clichés?"
+      - id: q07
+        text: "¿Qué fue el Renacimiento?"
+      - id: q08
+        text: "¿Qué produjo la Reforma protestante?"
+      - id: q09
+        text: "¿Qué fue la Revolución científica?"
+      - id: q10
+        text: "¿Qué significa Ilustración?"
+      - id: q11
+        text: "¿Qué causas produjeron las revoluciones americana y francesa?"
+      - id: q12
+        text: "¿Qué produjo la industrialización?"
+      - id: q13
+        text: "¿Por qué surgieron el nacionalismo, el liberalismo, el socialismo y el conservadurismo?"
+      - id: q14
+        text: "¿Por qué ocurrieron las dos guerras mundiales?"
+      - id: q15
+        text: "¿Cómo surgieron los regímenes totalitarios del siglo XX?"
+      - id: q16
+        text: "¿Cómo se configuró el mundo posterior a 1945?"
+      - id: q17
+        text: "¿Qué acontecimientos explican el mundo político actual?"
+
+  - id: 05
+    slug: ciencias
+    title: "Ciencias: aprender cómo funciona la realidad"
+    virtue: "Respeto por la realidad"
+    questions:
+      - id: q01
+        text: "¿Qué diferencia hay entre una explicación científica y una explicación no científica?"
+      - id: q02
+        text: "¿Qué es materia?"
+      - id: q03
+        text: "¿Qué es energía?"
+      - id: q04
+        text: "¿Qué es una célula?"
+      - id: q05
+        text: "¿Cómo funciona la evolución por selección natural?"
+      - id: q06
+        text: "¿Qué es un gen?"
+      - id: q07
+        text: "¿Cómo funciona el cerebro a grandes rasgos?"
+      - id: q08
+        text: "¿Qué es una especie?"
+      - id: q09
+        text: "¿Qué explica la teoría de la relatividad?"
+      - id: q10
+        text: "¿Qué explica la mecánica cuántica?"
+      - id: q11
+        text: "¿Qué es la entropía?"
+      - id: q12
+        text: "¿Qué edad tiene aproximadamente el universo?"
+      - id: q13
+        text: "¿Qué edad tiene aproximadamente la Tierra?"
+      - id: q14
+        text: "¿Cómo sabemos que los seres humanos evolucionaron?"
+      - id: q15
+        text: "¿Qué diferencia existe entre una teoría científica y una mera opinión?"
+      - id: q16
+        text: "¿Qué grandes preguntas siguen sin resolver las ciencias?"
+
+  - id: 06
+    slug: matematicas
+    title: "Matemáticas: aprender a pensar con rigor"
+    virtue: "Rigor"
+    questions:
+      - id: q01
+        text: "¿Puedes manejar con soltura aritmética, fracciones, porcentajes y proporciones?"
+      - id: q02
+        text: "¿Puedes resolver una ecuación sencilla?"
+      - id: q03
+        text: "¿Qué significa demostrar algo matemáticamente?"
+      - id: q04
+        text: "¿Qué es una función?"
+      - id: q05
+        text: "¿Qué significa una probabilidad?"
+      - id: q06
+        text: "¿Qué es una distribución estadística?"
+      - id: q07
+        text: "¿Qué diferencia hay entre media, mediana y moda?"
+      - id: q08
+        text: "¿Puedes interpretar correctamente un gráfico?"
+      - id: q09
+        text: "¿Qué es el interés compuesto?"
+      - id: q10
+        text: "¿Qué significa que dos variables estén correlacionadas?"
+      - id: q11
+        text: "¿Puedes detectar una estadística engañosa?"
+
+  - id: 07
+    slug: arte-y-belleza
+    title: "Arte y belleza"
+    virtue: "Sensibilidad"
+    questions:
+      - id: q01
+        text: "¿Qué hace que algo sea bello?"
+      - id: q02
+        text: "¿Puedes distinguir algunos de los principales estilos arquitectónicos?"
+      - id: q03
+        text: "¿Conoces las grandes etapas de la pintura occidental?"
+      - id: q04
+        text: "¿Puedes reconocer las características básicas del Renacimiento, Barroco, Romanticismo, Impresionismo y Modernismo?"
+      - id: q05
+        text: "¿Qué intenta conseguir una tragedia?"
+      - id: q06
+        text: "¿Qué diferencia hay entre tragedia, comedia, épica y novela?"
+      - id: q07
+        text: "¿Conoces las principales formas musicales?"
+      - id: q08
+        text: "¿Puedes escuchar una pieza musical identificando ritmo, melodía, armonía y estructura?"
+      - id: q09
+        text: "¿Por qué algunas obras siguen siendo consideradas grandes siglos después?"
+      - id: q10
+        text: "¿Puedes contemplar una obra de arte sin preguntarte inmediatamente si 'te gusta'?"
+
+  - id: 08
+    slug: politica-sociedad-economia
+    title: "Política, sociedad y economía"
+    virtue: "Justicia y ecuanimidad"
+    questions:
+      - id: q01
+        text: "¿Qué es el Estado?"
+      - id: q02
+        text: "¿Qué es la soberanía?"
+      - id: q03
+        text: "¿Qué diferencia hay entre democracia, república, monarquía, oligarquía y autocracia?"
+      - id: q04
+        text: "¿Qué es la separación de poderes?"
+      - id: q05
+        text: "¿Qué son los derechos fundamentales?"
+      - id: q06
+        text: "¿Qué es el Estado de derecho?"
+      - id: q07
+        text: "¿Qué es una constitución?"
+      - id: q08
+        text: "¿Qué diferencia hay entre liberalismo, conservadurismo, socialismo, comunismo, anarquismo y nacionalismo?"
+      - id: q09
+        text: "¿Qué es una economía de mercado?"
+      - id: q10
+        text: "¿Qué es inflación?"
+      - id: q11
+        text: "¿Qué es desempleo?"
+      - id: q12
+        text: "¿Qué hacen los bancos centrales?"
+      - id: q13
+        text: "¿Qué son los impuestos y para qué sirven?"
+      - id: q14
+        text: "¿Qué es el comercio internacional?"
+      - id: q15
+        text: "¿Por qué existen países ricos y pobres?"
+      - id: q16
+        text: "¿Qué problemas puede resolver el mercado y cuáles puede generar?"
+      - id: q17
+        text: "¿Qué problemas puede resolver el Estado y cuáles puede generar?"
+      - id: q18
+        text: "¿Puedes describir una posición política con la que discrepas de manera que su defensor diga: 'sí, eso es lo que pienso'?"
+
+  - id: 09
+    slug: religion-y-tradicion
+    title: "Religión y tradición"
+    virtue: "Reverencia y humildad"
+    questions:
+      - id: q01
+        text: "¿Qué significa creer en Dios?"
+      - id: q02
+        text: "¿Qué argumentos clásicos existen a favor y en contra de la existencia de Dios?"
+      - id: q03
+        text: "¿Qué enseñan, en términos generales, el judaísmo, cristianismo, islam, hinduismo y budismo?"
+      - id: q04
+        text: "¿Qué es una tradición religiosa?"
+      - id: q05
+        text: "¿Qué diferencia hay entre religión, superstición y filosofía?"
+      - id: q06
+        text: "¿Qué papel ha desempeñado la religión en la formación de las civilizaciones?"
+      - id: q07
+        text: "¿Puedes comprender una religión desde dentro aunque no la compartas?"
+      - id: q08
+        text: "¿Qué lugar ocupan el pecado, la virtud, el sufrimiento, la muerte y la salvación en las grandes tradiciones?"
+      - id: q09
+        text: "¿Qué creencias tuyas aceptarías examinar con la misma severidad con la que examinas las de los demás?"
+
+  - id: 10
+    slug: virtud
+    title: "Virtud: el examen verdaderamente importante"
+    virtue: "Prudencia, justicia, fortaleza y templanza"
+    type: practical  # estas se demuestran con actos, no solo con palabras
+    questions:
+      - id: q01
+        text: "¿Cumples tu palabra incluso cuando nadie puede castigarte por incumplirla?"
+      - id: q02
+        text: "¿Puedes admitir 'me equivoqué' sin buscar excusas?"
+      - id: q03
+        text: "¿Dices la verdad cuando mentir te beneficiaría?"
+      - id: q04
+        text: "¿Puedes mantener una promesa que ya no te resulta conveniente?"
+      - id: q05
+        text: "¿Puedes controlar tu lengua cuando estás enfadado?"
+      - id: q06
+        text: "¿Puedes escuchar una crítica sin ponerte inmediatamente a la defensiva?"
+      - id: q07
+        text: "¿Puedes alegrarte sinceramente por el éxito de otra persona?"
+      - id: q08
+        text: "¿Tratas con dignidad a alguien que no puede darte nada a cambio?"
+      - id: q09
+        text: "¿Puedes renunciar voluntariamente a un placer inmediato por un bien mayor?"
+      - id: q10
+        text: "¿Puedes trabajar aunque no tengas ganas?"
+      - id: q11
+        text: "¿Puedes dejar de hacer algo que sabes que te perjudica?"
+      - id: q12
+        text: "¿Puedes soportar el aburrimiento sin buscar inmediatamente entretenimiento?"
+      - id: q13
+        text: "¿Puedes estar solo sin sentir la necesidad constante de distraerte?"
+      - id: q14
+        text: "¿Sabes pedir perdón?"
+      - id: q15
+        text: "¿Sabes perdonar?"
+      - id: q16
+        text: "¿Puedes mantener la calma cuando las circunstancias no obedecen tus deseos?"
+      - id: q17
+        text: "¿Eres capaz de hacer algo difícil simplemente porque es correcto?"
+      - id: q18
+        text: "¿Ayudas a alguien aunque nadie vaya a enterarse?"
+      - id: q19
+        text: "¿Qué defecto tuyo conoces perfectamente y sigues sin corregir?"
+
+  - id: 11
+    slug: autodominio
+    title: "Autodominio"
+    virtue: "Templanza y fortaleza"
+    type: practical
+    questions:
+      - id: q01
+        text: "¿Quién gobierna tu atención: tú o tu teléfono?"
+      - id: q02
+        text: "¿Puedes pasar una semana sin una de tus gratificaciones habituales?"
+      - id: q03
+        text: "¿Duermes y comes de manera compatible con una vida disciplinada?"
+      - id: q04
+        text: "¿Puedes concentrarte una hora seguida en una tarea difícil?"
+      - id: q05
+        text: "¿Terminas lo que empiezas?"
+      - id: q06
+        text: "¿Sabes distinguir entre descanso y pereza?"
+      - id: q07
+        text: "¿Puedes retrasar una recompensa?"
+      - id: q08
+        text: "¿Puedes resistir una tentación sin negociar contigo mismo?"
+      - id: q09
+        text: "¿Tu estado de ánimo determina lo que haces?"
+      - id: q10
+        text: "¿Qué hábitos, repetidos durante diez años, producirían una versión degradada de ti?"
+      - id: q11
+        text: "¿Qué hábitos, repetidos durante diez años, producirían una versión mejor de ti?"
+
+  - id: 12
+    slug: los-otros
+    title: "Los otros"
+    virtue: "Justicia y amistad"
+    type: practical
+    questions:
+      - id: q01
+        text: "¿Sabes escuchar sin estar preparando tu respuesta?"
+      - id: q02
+        text: "¿Puedes conversar con alguien que sabe mucho más que tú sin sentirte inferior?"
+      - id: q03
+        text: "¿Puedes conversar con alguien que sabe mucho menos que tú sin tratarlo con condescendencia?"
+      - id: q04
+        text: "¿Conoces las preocupaciones de las personas que tienes cerca?"
+      - id: q05
+        text: "¿Eres un amigo fiable?"
+      - id: q06
+        text: "¿Qué clase de persona eres cuando nadie te necesita?"
+      - id: q07
+        text: "¿Qué clase de persona eres cuando alguien necesita algo de ti?"
+      - id: q08
+        text: "¿Puedes sacrificar una ventaja propia por el bien de otra persona?"
+      - id: q09
+        text: "¿Tratas a tus enemigos como seres humanos?"
+      - id: q10
+        text: "¿Puedes distinguir entre juzgar una acción y despreciar a quien la realizó?"
+
+  - id: 13
+    slug: prueba-socratica
+    title: "La prueba socrática"
+    virtue: "Honestidad radical consigo mismo"
+    type: practical
+    questions:
+      - id: q01
+        text: "¿Qué sé realmente?"
+      - id: q02
+        text: "¿Cómo sé que lo sé?"
+      - id: q03
+        text: "¿Qué creo saber pero nunca he examinado?"
+      - id: q04
+        text: "¿Qué deseo?"
+      - id: q05
+        text: "¿Por qué lo deseo?"
+      - id: q06
+        text: "¿Qué debería desear?"
+      - id: q07
+        text: "¿Qué temo?"
+      - id: q08
+        text: "¿Por qué lo temo?"
+      - id: q09
+        text: "¿Qué estoy dispuesto a sacrificar por aquello que considero bueno?"
+      - id: q10
+        text: "¿Qué clase de persona estoy convirtiéndome mediante mis hábitos?"
+      - id: q11
+        text: "Si alguien observara mis actos durante un año, ¿qué concluiría que considero realmente importante?"
+      - id: q12
+        text: "¿Hay alguna diferencia entre la persona que creo ser y la persona que mis actos demuestran que soy?"
+      - id: q13
+        text: "Si supiera que voy a morir dentro de un año, ¿qué cambiaría?"
+      - id: q14
+        text: "Si no cambiara nada, ¿qué estaría diciendo eso acerca de mis verdaderas prioridades?"
+      - id: q15
+        text: "¿Qué tendría que aprender para poder vivir mejor?"
+      - id: q16
+        text: "¿Qué tendría que dejar de hacer para poder vivir mejor?"
+      - id: q17
+        text: "¿Qué virtud me falta más?"
+      - id: q18
+        text: "¿Qué vicio me domina más?"
+      - id: q19
+        text: "¿Qué acción concreta puedo realizar hoy para corregirlo?"
